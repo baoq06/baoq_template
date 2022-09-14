@@ -2,18 +2,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define ll long long
+#define long long long
 #define all(x) x.begin(), x.end()
 typedef pair<int, int> II;
 
 template<typename T> bool maximize(T& a, T b) {return (a < b ? a = b, 1 : 0);}
 template<typename T> bool minimize(T& a, T b) {return (a > b ? a = b, 1 : 0);}
 
-const ll INF = ~(1LL << 63);
+const long INF = ~(1LL << 63);
 const int MOD = 1e9 + 7;
 
-ll add_mod(const ll &x, const ll &y) {return(1LL * ((x % MOD) + (y % MOD) % MOD));}
-ll mul_mod(const ll &x, const ll &y) {return(1LL * ((x % MOD) * (y % MOD) % MOD));}
+long add_mod(const long &x, const long &y) {return(1LL * ((x % MOD) + (y % MOD) % MOD));}
+long mul_mod(const long &x, const long &y) {return(1LL * ((x % MOD) * (y % MOD) % MOD));}
 
 void setIO(string NAME = "")
 {
