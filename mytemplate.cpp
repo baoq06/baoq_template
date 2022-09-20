@@ -4,7 +4,6 @@ using namespace std;
 
 #define long long long
 #define all(x) x.begin(), x.end()
-typedef pair<int, int> II;
 
 template<typename T> bool maximize(T& a, T b) {return (a < b ? a = b, 1 : 0);}
 template<typename T> bool minimize(T& a, T b) {return (a > b ? a = b, 1 : 0);}
