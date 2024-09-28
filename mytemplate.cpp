@@ -5,7 +5,7 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 
-template<class X> X sqr(X &a) {return a * a;}
+template<class X> X sqr(X a) {return a * a;}
 template<class X, class Y> bool maximize(X &a, const Y& b) {X eps = 1e-9; return (b > a + eps) ? a = b, 1 : 0;}
 template<class X, class Y> bool minimize(X &a, const Y& b) {X eps = 1e-9; return (b + eps < a) ? a = b, 1 : 0;}
 
